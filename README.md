@@ -31,6 +31,18 @@
 
 ##About Mojolicious
 
+* Awesome Perl microframework inspired by [Sinatra](http://www.sinatrarb.com/)
+* Very easy to get started with:
+
+```perl
+use Mojolicious::Lite;
+get '/' => {text => 'Hello World!'};
+app->start;
+```
+
+* Lots of [documentation](http://mojolicio.us/perldoc) and [guides](http://mojolicio.us/perldoc#GUIDES)
+* Flexible, powerful and intuitive
+
 
 
 ##About Bootstrap from Twitter
