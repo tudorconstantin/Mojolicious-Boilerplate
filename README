@@ -1,8 +1,6 @@
-Mojolicious and Bootstrap from Twitter
-======================================
+#Mojolicious and Bootstrap from Twitter
 
-Features
---------
+##Features
 
 * YAML config for Mojolicious
 * Configurable application menu based on user type
@@ -11,20 +9,16 @@ Features
 * No extra dependencies except for YAML::XS
 
 
-Getting Started
-----------------
+##Getting Started
 
 
 
-Nice to Have Stuff
-------------------
+##Nice to Have Stuff
 
 
 
-About Mojolicious
------------------
+##About Mojolicious
 
 
 
-About Bootstrap from Twitter
-----------------------------
+##About Bootstrap from Twitter
