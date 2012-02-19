@@ -1,0 +1,60 @@
+
+# users (used for demo purposes)
+demo_users:
+# user_type
+  regular:
+# user object properties  
+    username: regular
+    first_name: John
+    last_name: Doe
+    user_type: regular
+  admin:
+    username: admin
+    first_name: God Like
+    last_name: anonymous
+    user_type: admin
+
+# application menu 
+app_menu:
+  anonymous:
+    00_home:
+      text: Home
+      value: /
+    01_login:
+      text: Log In
+      value: /login
+    02_signup:
+      text: Sign Up
+      value: /sign-up
+    03_about:
+      text: About
+      value: /about
+
+  regular:
+    00_home:
+      text: Home
+      value: /home
+    01_user_menu:
+      text: User Menu
+      value: /user/menu
+    03_logout:
+      text: Logout
+      value: /logout  
+    04_about:
+      text: About
+      value: /user/about
+
+  admin:
+    00_home:
+      text: Home
+      value: /home
+    01_admin_menu:
+      text: Admin Menu
+      value: /admin/menu
+    03_logout:
+      text: Logout
+      value: /logout
+    04_about:
+      text: About
+      value: /admin/about      
+

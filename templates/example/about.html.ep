@@ -1,0 +1,54 @@
+% layout 'starter';
+% title 'Welcome';
+
+% content_for 'hero_unit' => begin
+ <div class="hero-unit">
+
+    <h1>About Mojolicious, Bootstrap and this Boilerplate</h1>
+    <p>Because of reasons...</p>
+    <div class="subnav">
+    <ul class="nav nav-pills">
+      <li class="active"><a href="#boilerplate">1. About this Boilerplate</a></li>
+      <li class=""><a href="#mojolicious">2. Mojolicious</a></li>
+      <li class=""><a href="#bootstrap">3. Bootstrap from Twitter</a></li>
+      <!--li class=""><a href="#download">4. Download</a></li-->
+    </ul>
+    </div>
+</div>
+
+
+<section  id="boilerplate">
+  <div class="page-header">
+    <h1>
+      1. The Boilerplate
+      <small>beautifully boxed productivity</small>
+    </h1>
+  </div>
+  <div class="row">
+    <div class="span12" id="boilerplate">
+      <h3>Features</h3>
+	  <ul>
+	  	<li>
+			YAML config for Mojolicious
+ 		</li>
+        <li>
+            Configurable application menu based on user type
+        </li>
+		<li>
+		    Unified user notification through messages displayed (alert, success, info)
+		</li>
+		<li>
+		    Examples of using the Mojolicious sessions (<span class="label label-info">learned hard</span>it took me a few days until I got this right)
+		 </li>
+         <li>
+            No extra dependencies except for YAML::XS
+         </li>
+
+	  </ul>
+
+    </div><!-- /span -->
+  </div><!-- /row -->
+</section>
+
+% end
+
