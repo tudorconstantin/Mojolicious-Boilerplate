@@ -29,7 +29,7 @@
 
 
 
-##About Mojolicious
+##About [Mojolicious](http://mojolicio.us)
 
 * Awesome Perl microframework inspired by [Sinatra](http://www.sinatrarb.com/)
 * Very easy to get started with:
@@ -44,5 +44,8 @@ app->start;
 * Flexible, powerful and intuitive
 
 
-
-##About Bootstrap from Twitter
+##About [Bootstrap from Twitter](http://twitter.github.com/bootstrap/)
+* Give your applications a slick look and feel
+* Gain cross browser compatibility out of the box
+* Very [customizable](http://twitter.github.com/bootstrap/download.html)
+* Get access to a great collection of [components](http://twitter.github.com/bootstrap/components.html) and [plugins](http://twitter.github.com/bootstrap/javascript.html)
