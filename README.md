@@ -48,7 +48,7 @@ $c->app->{config}</pre>
 <pre>push @{ $self->session->{notice_messages} },  'You look too good to be true';
 push @{ $self->session->{success_messages} },  'Success looks good on anybody';</pre>
 
-![Mojolicious/Bootstrap msg examples](wiki/images/mojo_messages.jpg)
+![Mojolicious/Bootstrap msg examples](https://github.com/tudorconstantin/Mojolicious-Boilerplate/wiki/images/mojo_messages.jpg)
 
 ##About [Mojolicious](http://mojolicio.us)
 
