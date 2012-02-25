@@ -22,7 +22,6 @@ sub startup {
     $c->session->{_menu} = defined($c->session->{user})
                 ? $c->app->{config}->{app_menu}->{$c->session->{user}->{user_type} }
                 : $c->app->{config}->{app_menu}->{anonymous} ;
-                                                                  
    });  
    
   # Routes

@@ -59,7 +59,7 @@ sub _get_a_user{
   my $self = shift;
 
   #randomly get a user from config
-  return $self->app->{config}->{demo_users}->{ ( keys $self->app->{config}->{demo_users} )[ rand( scalar( keys $self->app->{config}->{demo_users} ) ) ] };
+  return $self->app->{config}->{demo_users}->{ ( keys %{ $self->app->{config}->{demo_users} } )[ rand( scalar( keys %{ $self->app->{config}->{demo_users} } ) ) ] };
 }
 
 
