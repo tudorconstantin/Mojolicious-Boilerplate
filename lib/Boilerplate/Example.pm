@@ -1,6 +1,8 @@
 package Boilerplate::Example;
 use Mojo::Base 'Mojolicious::Controller';
 
+use utf8;
+
 # This action will render a template
 sub welcome {
   my $self = shift;
@@ -22,6 +24,7 @@ sub login {
 
   $self->redirect_to('/');
 }
+
 
 sub logout{
   my $self = shift;

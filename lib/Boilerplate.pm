@@ -29,16 +29,19 @@ sub startup {
   my $r = $self->routes;
 
   # Normal route to controller
-  $r->route('/')->to('example#welcome');
+  $r->route('/')->to('example#welcome');  
   $r->route('/home')->to('example#welcome');
   
   $r->route('/login')->to('example#login');
   $r->route('/logout')->to('example#logout');
   $r->route('/sign-up')->to('example#about');
   
-  $r->route('/about')->to('example#about');
+  $r->route('/about')->to('example#about');    
   $r->route('/:user_type/about')->to('example#signed_in_about');  
   $r->route('/:user_type/menu')->to('example#signed_in_menu');
+  
+  #route to photo gallery (controller Gallery, action gallery)
+  $r->route('/clujpm_gallery/:view_as')->to('gallery#gallery'); 
   
 }
 

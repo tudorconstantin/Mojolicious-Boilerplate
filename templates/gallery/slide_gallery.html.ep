@@ -1,0 +1,28 @@
+%layout 'starter';
+%title 'Welcome';
+
+
+%if (defined( $images ) && scalar(@$images) > 0 ){
+  <div id="myCarousel" class="carousel slide">
+    <div class="carousel-inner">
+      %my $activate = 1;
+      %foreach my $image ( @$images ){
+        %if ($activate){
+          % $activate = 0;
+          <div class="item active">
+        %}else{
+          <div class="item">
+        %}
+            <img src="<%= $image %>" alt="">            
+            <div class="carousel-caption">
+              <h4>First Thumbnail label</h4>
+              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+            </div>
+          </div>
+      %}    
+      <a class="left carousel-control" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+      <a class="right carousel-control" href="#myCarousel" data-slide="next">&rsaquo;</a>
+    </div>
+  </div>
+  
+%}

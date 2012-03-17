@@ -1,6 +1,6 @@
 % layout 'starter';
 % title 'Welcome';
-
+% use utf8;
 % content_for 'hero_unit' => begin
  <div class="hero-unit">
 

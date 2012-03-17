@@ -1,0 +1,14 @@
+%layout 'starter';
+%title 'Welcome';
+
+%if (defined( $images ) && scalar(@$images) > 0 ){
+  <ul id="myGallery" class="thumbnails">
+    %foreach my $image ( @$images ){
+        <li class="span2">
+          <a href="#" class="thumbnail">
+            <img src="<%= $image %>" alt="">
+          </a>          
+        </li>
+    %}
+  </ul>
+%}
