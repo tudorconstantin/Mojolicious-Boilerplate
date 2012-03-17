@@ -35,8 +35,7 @@ app_menu:
       text: About
       value: /about
 
-  regular:
-  anonymous:
+  regular:  
     000_home:
       text: Home
       value: /
@@ -56,8 +55,7 @@ app_menu:
       text: About
       value: /user/about
 
-  admin:
-  anonymous:
+  admin:  
     000_home:
       text: Home
       value: /
