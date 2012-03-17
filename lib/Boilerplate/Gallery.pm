@@ -5,9 +5,8 @@ use File::Find;
 use utf8;
 
 sub gallery{
-  my $self = shift;
+  my $self = shift;  
   
-  use Data::Printer;
   my $imgs = [];
   my $url_location = q|/assets/img/cluj_pm|;
   
