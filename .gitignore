@@ -1,0 +1,8 @@
+blib/*
+cover_db/*
+Boilerplate/*
+log/*
+Makefile
+MYMETA.json
+MYMETA.yml
+pm_to_blib

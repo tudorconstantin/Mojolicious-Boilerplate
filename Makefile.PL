@@ -47,7 +47,9 @@ WriteMakefile(
     'Mojolicious::Plugin::YamlConfig' => '0.1.3',
     'YAML'                            => 0,
     'YAML::XS'                        => 0,
-    'File::Find'                      => 0,    
+    'File::Find'                      => 0,
+    'Test::BDD::Cucumber'             => 0,
+    'FindBin::libs'                   => 0,
   },
   test => {TESTS => 't/*.t t/*/*.t'}
 );

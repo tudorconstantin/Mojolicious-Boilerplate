@@ -28,10 +28,10 @@ sub startup {
   my $r = $self->routes;
 
   # Normal route to controller
-  $r->route('/')->to('example#welcome');  
+  $r->route('/')->name('home_page')->to('example#welcome');  
   $r->route('/home')->to('example#welcome');
   
-  $r->route('/login')->to('example#login');
+  $r->route('/login')->name('login')->to('example#login');
   $r->route('/logout')->to('example#logout');
   $r->route('/sign-up')->to('example#about');
   
@@ -40,7 +40,7 @@ sub startup {
   $r->route('/:user_type/menu')->to('example#signed_in_menu');
   
   #route to photo gallery (controller Gallery, action gallery)
-  $r->route('/clujpm_gallery/:view_as')->to('gallery#gallery'); 
+  $r->route('/clujpm_gallery/:view_as')->name('photo_gallery')->to('gallery#gallery'); 
   
 }
 
