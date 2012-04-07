@@ -17,6 +17,11 @@
 ####1.2 Install Mojolicious::Plugin::YamlConfig
 <pre>sudo cpan Mojolicious::Plugin::YamlConfig</pre>
 
+####1.3 Install the YAML::XS module - used for reading the config file
+<pre>sudo cpan YAML::XS</pre>
+
+####1.4 Install Test::BDD::Cucumber - for running the test suite
+<pre>sudo cpan Test::BDD::Cucumber </pre>
 
 ###2. Clone this repository
 <pre> git clone git://github.com/tudorconstantin/Mojolicious-Boilerplate.git</pre>
