@@ -11,6 +11,10 @@
  Given qr/a mojo test object for the "(.+)" application/, func ($c) {
   use_ok( $1 );
   my $tm = Test::Mojo->new( $1 );
+  
+  # Allow redirects
+  $tm->ua->max_redirects(5);
+  
   ok( $tm, "Object created" );
   $c->stash->{'feature'}->{'tm'} = $tm;
   ok( $c->stash->{'feature'}->{'tm'}, "Got our Test::Mojo object" );
