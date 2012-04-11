@@ -14,7 +14,7 @@ Feature: Simple Mojolicious Application Testing
     
   Scenario: Being able to login
     When I go to "login"
-    Then I should see the "logout" url
+    Then I should see the "Logout" url
     And I should see the "Logged\\s+in\\s+as" text
     And I should see the "Mojolicious\\s+and\\s+Bootstrap" text
 
