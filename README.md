@@ -55,6 +55,12 @@ push @{ $self->session->{success_messages} },  'Success looks good on anybody';<
 
 ![Mojolicious/Bootstrap msg examples](https://github.com/tudorconstantin/Mojolicious-Boilerplate/wiki/images/mojo_messages.jpg)
 
+##Contributors
+* I'd like to thanks to people who got invloved into the project:
+  * [Tudor Crisan](https://github.com/2dorr)
+  * [Christian Sturm](http://reezer.org/)
+ 
+
 ##About [Mojolicious](http://mojolicio.us)
 
 * Awesome Perl microframework inspired by [Sinatra](http://www.sinatrarb.com/)
