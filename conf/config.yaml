@@ -75,3 +75,4 @@ app_menu:
       text: About
       value: /admin/about
 
+google_analytics_code: UA-407609-8
