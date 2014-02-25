@@ -17,4 +17,4 @@ EOF
 $ENV{MOJO_APP} ||= 'Boilerplate';
 
 # Start commands
-Mojolicious::Commands->start;
+Mojolicious::Commands->start_app($ENV{MOJO_APP});
