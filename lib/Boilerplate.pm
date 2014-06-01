@@ -4,8 +4,6 @@ use Mojo::Base 'Mojolicious';
 # This method will run once at server start
 sub startup {
   my $self = shift;
-
-  $self->secret("Very well hidden secret");
   
   # Everything can be customized with options
   my $config = $self->plugin( yaml_config => {
