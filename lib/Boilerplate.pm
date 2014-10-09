@@ -5,7 +5,7 @@ use Mojo::Base 'Mojolicious';
 sub startup {
   my $self = shift;
 
-  $self->secret("Very well hidden secret");
+  #$self->secret("Very well hidden secret");
   
   # Everything can be customized with options
   my $config = $self->plugin( yaml_config => {
