@@ -59,6 +59,7 @@ push @{ $self->session->{success_messages} },  'Success looks good on anybody';<
 * I'd like to thanks to people who got invloved into the project:
   * [Tudor Crisan](https://github.com/2dorr)
   * [Christian Sturm](http://reezer.org/)
+  * [elcolio](https://github.com/elcolio)
  
 
 ##About [Mojolicious](http://mojolicio.us)
