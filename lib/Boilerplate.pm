@@ -16,7 +16,7 @@ sub startup {
                                 
   $self->{config} = $config;
 
-  $self->hook(after_static_dispatch => sub {
+  $self->hook(before_render => sub {
     my $c = shift;
     
     $c->session->{_menu} = defined($c->session->{user})
