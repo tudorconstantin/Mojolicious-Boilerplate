@@ -42,19 +42,19 @@ sub about{
 sub signed_in_about{
   my $self = shift;
   
-  $self->render( {
+  $self->render( 
     template  => 'example/about',
     user_type => $self->param('user_type'),
-  } );
+   );
 }
 
 sub signed_in_menu{
   my $self = shift;
   
-  $self->render( {
-    template  => 'example/menu_page',
+  $self->render( 
+    template  => 'example/signed_in_menu',
     user_type => $self->param('user_type'),
-  } );
+   );
 }
               
 
